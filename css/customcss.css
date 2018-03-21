@@ -10,7 +10,7 @@
 
 .headerMain {
     color: rgba(226, 222, 204);
-    font-size: 28px;
+    font-size: 43px;
     text-transform: uppercase;
 }
 
@@ -31,6 +31,8 @@
 
 .headerText {
     color: white;
+    font-size: 28px;
+    
 }
  .spacerBox{
     height: 25px;
@@ -108,8 +110,8 @@
 /* Css Destinations Page */
 
   .tripImages {
-      width: 75%;
-      margin: 0 auto;
+      width: 400px;
+      padding-top: 10%; 
   }
 
   .advImage {
