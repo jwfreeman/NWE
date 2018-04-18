@@ -1,7 +1,7 @@
 # Site settings
-title:
+title: New World Expeditions
 email:
-description: > # this means to ignore newlines until "baseurl:"
+description: African Safari Adventures!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 

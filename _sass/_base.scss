@@ -70,7 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color:white;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -109,8 +109,8 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
-        border-color: rgba(white, .3);
+        background-color: white;
+        border-color: rgba(black, .3);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
             &:hover,
@@ -120,9 +120,9 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .9);
+            color: rgba(black, .9);
             &:hover {
-                color: white;
+                color: black;
             }
         }
         &.affix {
@@ -138,7 +138,7 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: black;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -146,6 +146,7 @@ aside {
         }
     }
 }
+
 
 // Homepage Header
 
@@ -164,7 +165,7 @@ aside {
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
-        .header-content-inner {
+        .header-content-inner, .header-content-inner-GS {
             width:100%;
             h1 {
                 font-weight: 600;
@@ -196,12 +197,18 @@ aside {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
+            .header-content-inner-GS{
+                max-width: 500px;
+                margin-left: 10px;
+                margin-right: 10px;
                 p {
                     font-size: 18px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
+            
                 }
+            }
             }
         }
     }
@@ -280,7 +287,7 @@ aside {
     min-height: auto;
     @include background-cover; 
     background-position: center;
-    background-image: url('../img/vicfalls.jpg');
+    background-image: url('../img/vicfalls.png');
     text-align: center;
     background-repeat: no-repeat;
     color:  white;

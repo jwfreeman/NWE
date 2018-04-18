@@ -39,7 +39,7 @@
  }
 .headerDownArrow {
     float: bottom;
-    color: white;
+    color: rgba(0, 0, 0, .7);
     height: 150%;
     
 }
@@ -176,4 +176,15 @@
 
 .advBody2 {
     padding-bottom: 8%;
+}
+
+.detailBoxOuter {
+    padding: 5px;
+}
+.detailBox {
+    background-color: rgb(247, 183, 0);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .3);
+    min-height: 185px;
+
 }
