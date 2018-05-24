@@ -1,12 +1,12 @@
 # Site settings
 title: New World Expeditions
-email:
+email: info@newworldexp.com
 description: African Safari Adventures!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+facebook_username: NewWorldExpeditions
+instagram_username:
 
 # Build settings
 markdown: kramdown

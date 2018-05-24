@@ -39,9 +39,13 @@
  }
 .headerDownArrow {
     float: bottom;
-    color: rgba(255, 255, 255, .9);
+    color: rgba(247, 183, 90, 0.9);
     height: 150%;
     
+}
+.headerDownArrow2 {
+    float: bottom;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .navButton{
@@ -153,6 +157,9 @@
     .tripButtonBottom {
         padding-top: 5px;
     }
+    .spacerBoxAdv {
+        display: none;
+    }
     
 
 }
@@ -178,13 +185,43 @@
     padding-bottom: 8%;
 }
 
-.detailBoxOuter {
-    padding: 5px;
+.detailBoxTitle {
+    padding-bottom: 15px;
+    text-decoration: underline;
 }
 .detailBox {
     background-color: rgb(247, 183, 0);
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .3);
     min-height: 185px;
+}
 
+.detailBox:hover {
+    background-color: rgba(247, 183, 0, 0.9);
+}
+
+
+/* About NWE Page */
+
+.background {
+    background-color: rgba(193, 191, 191, .5);
+    border-radius: 10px;
+    height: 1000px;
+    margin-top: 25px;
+}
+
+.whiteCircle {
+    background-color:white;
+    border-radius: 100px;
+    
+}
+
+.spacerBoxAdv {
+    display: active;
+}
+
+.backgroundFooter {
+    background-color: #222;
+    width: 100%;
+    height: 3em;
 }
