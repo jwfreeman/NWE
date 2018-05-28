@@ -160,7 +160,24 @@
     .spacerBoxAdv {
         display: none;
     }
-    
+    .headerMain {
+        font-size: 20px;
+    }
+    .headerText span {
+        display: none;
+    }
+    .headerButton {
+        font-size: 10px;
+    }
+    .headerDownArrow {
+        color: white;
+    }
+    .tripImages {
+        max-width: 200px;
+    }
+    .topIcons {
+        display:none;
+    }
 
 }
 
