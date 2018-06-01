@@ -62,7 +62,7 @@ aside { padding: 50px 0; }
 .headerDest .headerDest-content .headerDest-content-inner h1 { font-weight: 600; text-transform: uppercase; margin-top: 0; margin-bottom: 0; }
 .headerDest .headerDest-content .headerDest-content-inner hr { margin: 30px auto; }
 .headerDest .headerDest-content .headerDest-content-inner p { font-weight: 300; color: white; font-size: 16px; margin-bottom: 50px; }
-@media (min-width: 768px) { .headerDest { min-height: 50%; background-position: left top; }
+@media (min-width: 768px) { .headerDest { min-height: 50%; background-position: left center; }
   .headerDest .headerDest-content { position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); padding: 0 50px; }
   .headerDest .headerDest-content .headerDest-content-inner { max-width: 1000px; margin-left: auto; margin-right: auto; }
   .headerDest .headerDest-content .headerDest-content-inner p { font-size: 18px; max-width: 80%; margin-left: auto; margin-right: auto; } }
